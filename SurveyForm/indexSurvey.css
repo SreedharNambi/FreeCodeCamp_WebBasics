@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #414a4c;
+    color: antiquewhite;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#survey-form{
+    background-color:#232b2b;
+    width: 60vw;
+    margin:auto;
+    border-radius: 4px;
+    display: flex;
+    padding: 1em 1em 1em 1em;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#name,#email,#number{
+    width: 50vw;
+    height: 30px;
+    padding: 0.5em;
+font-weight:500;
+}
+
+#title {
+    padding: 10px;
+text-align: center;
+font-weight: bold;
+
+}
+
+#description{
+    text-align: center;
+    font-weight:400;
+}
+.radio-button{
+    margin: 20px;
+    min-height: 4px;
+    max-height: 6px;
+}
+
+.labelgroup{
+    display: flex;
+}
+label{
+    margin-bottom: 1em;
+    display: flex;
+    width: 100%;
+
+    
+}
+input{
+    display: block;
+    margin-bottom: 1em;
+    margin-right: 1em;
+  
+}
+select{
+    width: 50vw;
+    height: 30px;
+    font-weight:500;
+    padding: 4px;
+}
+#commentsBox{
+    height: 100px;
+    width: 50vw;
+}
+.btn{
+    background-color: darkorange;
+    width: 50vw;
+    height: 30px;
+    font-weight: bold;
+    color: #232b2b;
+    font-size: medium;
+}
